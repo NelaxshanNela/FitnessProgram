@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "FitnessProgramManagementSystem\\ProgramManagerClass.cs",
               "ToolTip": "X:\\Exam2\\FitnessProgramManagementSystem\\FitnessProgramManagementSystem\\ProgramManagerClass.cs",
               "RelativeToolTip": "FitnessProgramManagementSystem\\ProgramManagerClass.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwEgAAAAuAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwCMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:40:04.796Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "FitnessProgramManagementSystem\\FitnessProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:25:19.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T08:25:19.43Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "FitnessProgramManagementSystem\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:23:44.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T08:23:44.077Z"
             }
           ]
         }

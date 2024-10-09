@@ -18,8 +18,7 @@ namespace FitnessProgramManagementSystem
             string programTitle = Console.ReadLine();
             Console.Write("Enter program duration (in months): ");
             string programDuration = Console.ReadLine();
-            Console.Write("Enter program price: ");
-            int programPrice = int.Parse(Console.ReadLine());
+            decimal programPrice = ValidateFitnessProgramPrice();
 
             FitnessProgram program = new FitnessProgram(FitnessProgramId, programTitle, programDuration, programPrice);
 
@@ -54,8 +53,7 @@ namespace FitnessProgramManagementSystem
                 string programTitle = Console.ReadLine();
                 Console.Write("Enter program duration (in months): ");
                 string programDuration = Console.ReadLine();
-                Console.Write("Enter program price: ");
-                int programPrice = int.Parse(Console.ReadLine());
+                decimal programPrice = ValidateFitnessProgramPrice();
 
                 FitnessProgram program = new FitnessProgram(programId, programTitle, programDuration, programPrice);
 
@@ -70,24 +68,36 @@ namespace FitnessProgramManagementSystem
 
         public void DeleteFitnessProgram()
         {
-            Console.WriteLine("delete works");
+            Console.WriteLine("Enter the bike ID to be delete");
+            int programId = int.Parse(Console.ReadLine());
+            var findProgram = FitnessProgramList.Where(f => f.FitnessProgramId == programId).FirstOrDefault();
+            if (findProgram != null)
+            {
+                this.FitnessProgramList.Remove(findProgram);
+
+                Console.WriteLine("Successfully program Deleted");
+            }
+            else
+            {
+                Console.WriteLine("Invalid program Id");
+            }
         }
 
 
-        public decimal ValidateBikeRentalPrice()
+        public decimal ValidateFitnessProgramPrice()
         {
             decimal init = 0;
 
             while (true)
             {
-                Console.WriteLine("Enter the Rental Price");
-                var RentalPrice = decimal.Parse(Console.ReadLine());
-                if (RentalPrice > 0)
+                Console.Write("Enter the program Price");
+                var programPrice = decimal.Parse(Console.ReadLine());
+                if (programPrice > 0)
                 {
-                    init = RentalPrice;
+                    init = programPrice;
                     break;
                 }
-                Console.WriteLine("Invalid");
+                Console.WriteLine("Invalid price");
             }
             return init;
         }
