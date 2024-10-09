@@ -53,3 +53,4 @@ X:\Exam2\FitnessProgramManagementSystem\FitnessProgramManagementSystem\bin\Debug
 X:\Exam2\FitnessProgramManagementSystem\FitnessProgramManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 X:\Exam2\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\net8.0\FitnessProgramManagementSystem.csproj.AssemblyReference.cache
 X:\Exam2\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\net8.0\FitnessP.B6461C06.Up2Date
+X:\Exam2\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\net8.0\FitnessProgramManagementSystem.sourcelink.json

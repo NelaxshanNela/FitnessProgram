@@ -23,7 +23,7 @@ namespace FitnessProgramManagementSystem
 
         public override string ToString()
         {
-            return $"ID: {FitnessProgramId}, Title: {Title}, Duration: {Duration}, Price: {Price:C}";
+            return $"ID: {FitnessProgramId}, Title: {Title}, Duration: {Duration}, Price: LKR{Price}";
         }
     }
 }
