@@ -8,6 +8,9 @@
             //Console.WriteLine(fitnessProgram.ToString());
 
             ProgramManagerClass programManagerClass = new ProgramManagerClass();
+
+            FitnessProgramRepository repository = new FitnessProgramRepository();
+
             while (true)
             {
                 Console.WriteLine("Fitness Program Management System:");
@@ -22,7 +25,7 @@
                 switch (input)
                 {
                     case "1":
-                        programManagerClass.CreateFitnessProgram();
+                        repository.CreateFitnessProgram();
                         break;
                     case "2":
                         programManagerClass.ReadFitnessPrograms();
